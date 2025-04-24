@@ -22,27 +22,9 @@ Now, watch the step carefully and try this trick. It's 100% works! You will have
 
 ## 🔧 Prerequisites
 
-- Python 3.6+
+- Python 3.6+ (Google Collab - Highly Reccomended)
 - Spotify account
 - Spotify Developer credentials
-
-## 📥 Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/spotify-playlist-extractor.git
-   cd spotify-playlist-extractor
-   ```
-
-2. Install required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   
-   Or install directly:
-   ```bash
-   pip install spotipy pandas
-   ```
 
 ## 🔑 Setting Up Spotify Developer Account
 
@@ -56,10 +38,16 @@ Now, watch the step carefully and try this trick. It's 100% works! You will have
 2. Fill in the application details:
    - **App name**: Enter a name for your application (e.g., "My Playlist Extractor")
    - **App description**: Brief description of your app (e.g., "Application to extract Spotify playlist information including descriptions and metadata")
-   - **Redirect URI**: Enter `http://localhost:8000/callback` (this is where users will be redirected after authentication)
+   - **Redirect URI**: Enter `http://127.0.0.1:8000/callback` (this is where users will be redirected after authentication)
    - **Which API/SDKs are you planning to use?**: Select "Web API"
    - Check the terms of service agreement box
 3. Click **Save**
+
+Example :
+
+![Image](https://github.com/user-attachments/assets/43575a42-ecab-4516-991a-fda08bcad55f)
+
+![Image](https://github.com/user-attachments/assets/ed6efe58-7ace-4c2c-85a3-5a758917ca27)
 
 ### Step 3: Get Your Credentials
 
@@ -68,38 +56,12 @@ Now, watch the step carefully and try this trick. It's 100% works! You will have
 3. Click **View Client Secret** to reveal and copy your Client Secret
 4. Keep these credentials secure - you'll need them to authenticate with the Spotify API
 
-![Image](https://github.com/user-attachments/assets/43575a42-ecab-4516-991a-fda08bcad55f)
-
-![Image](https://github.com/user-attachments/assets/ed6efe58-7ace-4c2c-85a3-5a758917ca27)
-
-## ⚙️ Configuration
-
-### Option 1: Environment Variables (Recommended)
-
-Set your Spotify API credentials as environment variables:
-
-**Linux/Mac:**
-```bash
-export SPOTIFY_CLIENT_ID='your_client_id'
-export SPOTIFY_CLIENT_SECRET='your_client_secret'
-```
-
-**Windows:**
-```cmd
-set SPOTIFY_CLIENT_ID=your_client_id
-set SPOTIFY_CLIENT_SECRET=your_client_secret
-```
-
-### Option 2: Direct Input
-
-If you don't set environment variables, the program will prompt you to enter your credentials when you run it.
-
 ## 🚀 Usage
 
 Run the script:
 
 ```bash
-python spotify_playlist_extractor.py
+How-to-see-spotify-playlist-description-without-limitation.ipynb
 ```
 
 Follow the prompts:
