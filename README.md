@@ -58,7 +58,7 @@ Example :
 
 ## 🚀 Usage
 
-Run the script:
+Run the script on your own google collab :
 
 ```bash
 How-to-see-spotify-playlist-description-without-limitation.ipynb
